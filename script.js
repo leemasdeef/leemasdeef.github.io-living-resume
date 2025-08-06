@@ -11,7 +11,10 @@ var splide = new Splide( '#carouselone', {
 splide.mount();
 
 // STAR slider
-var splide1 = new Splide( '#carouseltwo');
+var splide1 = new Splide( '#carouseltwo',{
+  perPage: 1,
+  rewind : true,
+} );
 
 splide1.mount();
 
