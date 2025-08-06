@@ -105,6 +105,10 @@ li {
     align-items: flex-start;
 }
 
+.bx {
+    padding-right: 0.5rem
+}
+
 .resume {
     background: var(--gradient-color)
 }
@@ -114,13 +118,13 @@ li {
 }
 
 #carouseltwo {
-    margin: -120px;
+    margin-top: -120px
 }
 
 .testimonial-card {
     position: relative;
     background-color: rgb(42, 42, 44);
-    border: 2px solid;
+    border: 2px solid white;
     border-radius: 24px;
     padding: 1rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
@@ -193,7 +197,6 @@ li {
 
 
 .learning-card {
-    text-align: center;
     max-width: 900px;
     background-color: rgba(25, 25, 25, 0.85);
     border: 2px solid;
@@ -201,12 +204,9 @@ li {
     padding: 1rem;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(4px);
-    margin-bottom: 20rem;
     min-height: 600px;
     margin: 0 auto;
-    margin-bottom: 5rem;
-    width: auto;
-    
+    margin-bottom: 20rem;
 }
 
 
@@ -221,11 +221,15 @@ li {
     }
 }
 
-h3 {
+.learning-card h3 {
     font-size: 1.4rem;
+    text-align: center;
 }
 
 .summary {
     font-size: 1.2rem;
     font-style: italic;
+    text-align: center;
+    margin-top: -1.2rem;
+    margin-bottom: 2.8rem
 }
