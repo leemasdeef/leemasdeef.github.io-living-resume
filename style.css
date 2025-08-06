@@ -131,6 +131,7 @@ li {
 }
 
 .experience-card-container {
+  display: flex;
   justify-content: center;
   align-items: center;
   min-height: auto;
@@ -138,8 +139,6 @@ li {
   padding-right: 2rem;
   gap: 100px; 
   position: relative;
-
-  
 }
 
 .experience-column-left,
