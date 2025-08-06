@@ -42,6 +42,8 @@ section.hero {
     text-align: center;
 }
 
+
+
 .title-container {
     display: flex;
     justify-content: center;
@@ -108,7 +110,11 @@ li {
 }
 
 #carouselone {
-    margin-top: 100px;
+    margin-top: 50px;
+}
+
+#carouseltwo {
+    margin: -120px;
 }
 
 .testimonial-card {
