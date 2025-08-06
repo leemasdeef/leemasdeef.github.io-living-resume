@@ -1,0 +1,189 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+:root {
+    --gradient-color: linear-gradient(to right, #f12711, #f5af19);
+}
+
+body {
+    background-color: rgba(3, 2, 8, 0.938);
+}
+
+nav {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+}
+
+.ml3 {
+  font-size: 3em;
+}
+
+.letter {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+
+section.hero {
+    text-align: center;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+
+#experience-dropdown,
+option {
+    color: black;
+    border-radius: 5px;
+}
+
+.experience-container {
+    display: block;
+    margin-left: 35%;
+    width: 30%;
+    background-color: rgb(42, 42, 44);
+    border-radius: 24px;
+    padding: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    height: 40%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+button {
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+    font-weight: normal;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    align-items: flex-start;
+}
+
+.resume {
+    background: var(--gradient-color)
+}
+
+#carouselone {
+    margin-top: 100px;
+}
+
+.testimonial-card {
+    position: relative;
+    background-color: rgb(42, 42, 44);
+    border: 2px solid;
+    border-radius: 24px;
+    padding: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    height: 100%;
+}
+
+.testimonial-card.testimonial-id,
+.testimonial-card.testimonial-job {
+    position: absolute;
+}
+
+.work-experience h1 {
+    text-align: center;
+}
+
+.experience-card-container {
+  display: flex;
+  align-items: center;
+  min-height: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 100px; 
+  position: relative;
+  
+}
+
+.experience-column-left,
+.experience-column-right {
+    flex: 1;
+}
+
+.experience-card {
+    background-color: rgba(25, 25, 25, 0.85);
+    border: 2px solid;
+    border-radius: 24px;
+    padding: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    margin-bottom: 10rem;
+}
+
+.experience-card:nth-child(7) {
+    margin-bottom: 0;
+}
+
+.experience-column-left .experience-card:nth-child(even),
+.experience-column-right .experience-card:nth-child(odd) {
+  align-self: flex-end;
+}
+
+.divider {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  height: 90%;
+  width: 2px;
+  background: linear-gradient(to bottom, #dd3208, #e7eb05);
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.learning-card {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(25, 25, 25, 0.85);
+    border: 2px solid;
+    border-radius: 24px;
+    padding: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    margin-bottom: 20rem;
+    min-height: 600px;
+}
+
+.case-heading {
+    text-align: center;
+}
+
+
