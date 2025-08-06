@@ -62,7 +62,9 @@ option {
 }
 
 .experience-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 35%;
     width: 30%;
     background-color: rgb(42, 42, 44);
@@ -74,6 +76,7 @@ option {
     margin-top: 1rem;
     margin-bottom: 1rem;
     overflow: hidden;
+    min-width: 200px
 }
 
 
@@ -128,13 +131,14 @@ li {
 }
 
 .experience-card-container {
-  display: flex;
+  justify-content: center;
   align-items: center;
   min-height: auto;
   padding-left: 2rem;
   padding-right: 2rem;
   gap: 100px; 
   position: relative;
+
   
 }
 
