@@ -65,8 +65,7 @@ option {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 35%;
-    width: 30%;
+    max-width: 600px;
     background-color: rgb(42, 42, 44);
     border-radius: 24px;
     padding: 1rem;
@@ -75,8 +74,10 @@ option {
     height: 40%;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
-    min-width: 200px
+  
 }
 
 
@@ -138,7 +139,8 @@ li {
   padding-left: 2rem;
   padding-right: 2rem;
   gap: 100px; 
-  position: relative;
+  overflow: hidden;
+  
 }
 
 .experience-column-left,
@@ -154,6 +156,7 @@ li {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(4px);
     margin-bottom: 10rem;
+    overflow: hidden;
 }
 
 .experience-card:nth-child(7) {
@@ -199,4 +202,9 @@ li {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    .experience-card-container{
+        flex-direction: column;
+    }
+}
 
