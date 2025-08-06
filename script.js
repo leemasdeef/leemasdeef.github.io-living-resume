@@ -2,9 +2,7 @@ AOS.init();
 
 // testimonial slider
 var splide = new Splide( '#carouselone', {
-  type   : 'loop',
   perPage: 2,
-  focus  : 'center',
   gap: '2rem',
 } );
 
