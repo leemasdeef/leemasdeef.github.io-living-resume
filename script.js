@@ -1,9 +1,11 @@
 AOS.init();
 
 // testimonial slider
+
 var splide = new Splide( '#carouselone', {
-  perPage: 2,
+  perPage: 1,
   gap: '2rem',
+  
 } );
 
 splide.mount();
@@ -15,6 +17,7 @@ var splide1 = new Splide( '#carouseltwo',{
 } );
 
 splide1.mount();
+
 
 // h1 animation
 var textWrapper = document.querySelector('.ml3');
