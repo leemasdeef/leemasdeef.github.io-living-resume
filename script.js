@@ -5,6 +5,7 @@ AOS.init();
 var splide = new Splide( '#carouselone', {
   perPage: 1,
   gap: '2rem',
+  rewind : true,
   
 } );
 
